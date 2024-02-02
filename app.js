@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/gitaction', (req, res) => {
-    res.send('Hey Younggil. It is working!')
+    res.send('Hey YO. It is working!')
 })
 
 app.listen(5050, () => {
